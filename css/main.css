@@ -1,9 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-
-
-.titulo{
-	
+body{
+	background-color: #02010a;
+	font-family: 'Dancing Script', cursive;
 }
 @media (min-width: 900px){
 }
