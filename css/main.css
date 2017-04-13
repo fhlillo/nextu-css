@@ -35,6 +35,9 @@ ul li{
 ul li a{
 	color: #ffffff;
 }
+a.visitada{
+	text-decoration: none;
+}
 .sombra{ 
 	text-shadow: 2px 2px 2px #02010a;
 }
