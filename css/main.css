@@ -46,6 +46,43 @@ a.visitada{
 	display: flex;
 	flex-flow: row wrap;
 }
+#imginferior div span{
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+#imginferior div a{
+	color: #000000;
+}
+#paisaje:hover{
+   animation: Rotacion 2s;
+}
+#imginferior div span{
+	padding: 15px 0px;
+}
+@-webkit-keyframes Rotacion{
+  0%{
+    transform: rotate(0deg);
+  }50%{
+    transform: rotate(10deg);
+	box-shadow: 2px 2px 2px #82c3a6;
+  }100%{
+    transform: rotate(0deg);
+  }
+}
+#retratos:hover{
+   animation: transl 2s;
+}
+@-webkit-keyframes transl{
+  0%{
+    transform: translate(0px, 0px);
+  }50%{
+    transform: translate(20px,-5px);
+	box-shadow: 2px 2px 2px #82c3a6;
+  }100%{
+    transform: translate(0px,0px);
+  }
+}
 @media (max-width: 900px){
 	.contenido{
 		width: 100%;
@@ -72,8 +109,13 @@ a.visitada{
 		width: 100%;
 		background-color: #82c3a6;
 	}
-	#imginferior img{
-		margin: 3% 8.3% 3%;
+	#imginferior div{
+		max-width: 100%;
+	}
+	#imginferior div a img{
+		max-width: 90%;
+		border: 1px;
+		margin: 5%;
 	}
 	
 }
@@ -95,7 +137,12 @@ a.visitada{
 		max-width: 80%;
 		margin: 2% 10%;
 	}
-	#imginferior img{
-		margin: 0 auto;
+	#imginferior div{
+		max-width: 50%;
 	}
+	#imginferior div a img{
+		max-width: 90%;
+		border: 1px;
+		margin: 5%;
+	}	
 }
