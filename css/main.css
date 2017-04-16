@@ -12,6 +12,11 @@ body {
 .sombra {
 	box-shadow: 2px 2px 2px #02010a;
 }
+#galeria{
+	background-color: #d5c75f;
+	display: flex;
+	flex-flow: row wrap;
+}
 /* header */
 header {
 	color: #ffffff;
@@ -105,4 +110,5 @@ footer {
 	height: auto;
 	padding: 1%2.5% 1% 2.5%;
 }
+	
 }

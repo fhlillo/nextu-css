@@ -63,7 +63,7 @@ header h1 {
 }
 ul {
 	text-align: center;
-}
+} 
 #central {
 	max-width: 96%;
 	margin: 2%;
@@ -80,15 +80,6 @@ ul {
 	max-width: 90%;
 	border: 1px;
 	margin: 5%;
-}
-footer {
-	width: 100%;
-	min-height: 300px;
-}
-.footerbox {
-	width: 100%;
-	height: auto;
-	padding: 1%2.5% 1% 2.5%;
 }
 }
 
@@ -116,14 +107,5 @@ header {
 	max-width: 90%;
 	border: 1px;
 	margin: 5%;
-}
-footer {
-	width: 900px;
-	min-height: 200px;
-}
-.footerbox {
-	width: 20%;
-	height: auto;
-	padding: 1%2.5% 1% 2.5%;
 }
 }

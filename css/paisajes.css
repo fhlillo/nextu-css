@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+#galeria {
+	background-color: #d5c75f;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+@media (max-width: 900px) {
+#galeria {
+	max-width: 900px;
+	width: 100%;
+	background-color: #82c3a6;
+}
+}
+
+@media (min-width: 900px) {
+#galeria {
+	min-width: 900px;
+	height: auto;
+}
+	#galeria div{
+		width: 33.3%;
+	}
+	#galeria div img{
+		width: 84%;
+		margin: 4% 8%;
+	}
+}
